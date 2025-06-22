@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Open Xannie's Bookmark Manager",
+  "version": "1.0",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "open_bookmark_manager": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+X"
+      },
+      "description": "Opens the bookmark manager"
+    }
+  }
+}
